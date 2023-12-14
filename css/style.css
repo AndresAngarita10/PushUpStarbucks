@@ -1,0 +1,88 @@
+
+body{
+    background-color: black;
+}
+#carouselExample img {
+    width: 100%;
+    height: auto;
+    /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+    /* Para mantener la proporción de la imagen y recortar si es necesario */
+}
+#divizquierdo {
+    margin-top: 100px;
+}
+
+@media (max-width: 550px) {
+
+    /* Para pantallas con un ancho mínimo de 768px */
+    #divizquierdo {
+        margin-top: 100px;
+    }
+
+    #carouselExample {
+        margin-top: 60px;
+    }
+    #carouselExample img {
+        width: 80%;
+        height: auto;
+        /* Ajusta la altura según tus necesidades */
+        object-fit: cover;
+        /* Para mantener la proporción de la imagen y recortar si es necesario */
+    }
+    #textopedido{
+        z-index: 1000;
+    }
+}
+
+@media (max-width: 991px) {
+    #divizquierdo {
+        margin-top: 30px;
+    }
+    #carouselExample {
+        margin-left: 100px;
+    }
+
+    #carouselExample img {
+        width: 50%;
+        height: auto;
+        /* Ajusta la altura según tus necesidades */
+        object-fit: cover;
+        /* Para mantener la proporción de la imagen y recortar si es necesario */
+    }
+}
+
+p {
+    text-align: justify;
+}
+
+#mostrandoproductos{
+    padding: 20px;
+    background-color: rgba(208, 233, 223, 0.87);
+}
+
+.social-icons {
+    padding: 0.5%;
+    border-radius: 10px;
+    background-color: rgba(208, 233, 223, 0.87);
+    position: fixed;
+    margin-right: 5px;
+    top: 20%;
+    right: 0;
+    transform: translateY(-40%);
+    transform: translateX(50%);
+    z-index: 1000;
+    color: black;
+}
+
+.iconos {
+    color: black;
+    font-size: 30px;
+}
+
+#textopedido{
+    margin-top: -38px;
+    background-color: white;
+    z-index: 1;
+    max-width: 450px;
+}
